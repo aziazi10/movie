@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie</title>
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+  <p class="h3 text-center">Movies catalog</p>
+  <section class="container row row-cols-2 mx-auto">
+
+    <div class="w-25">
+      <div>
+        <form action="https://echo.htmlacademy.ru">
+          <input id="input" type="search" class="form-control mb-1">
+          <input type="search" class="form-control mb-1">
+          <select class="form-select mb-1" aria-label="Default select example">
+            <option selected disabled>All</option>
+            <option value="1">Melodrama</option>
+            <option value="2">Triller</option>
+            <option value="3">Comedy</option>
+            <option value="3">Fantasy</option>
+          </select>
+
+          <select class="form-select mb-1" aria-label="Default select example">
+            <option selected disabled>Raiting (high to low)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5</option>
+          </select>
+          <button class="form-control bg-info mb-2" type="submit">Search</button>
+        </form>
+      </div>
+
+      <p class="h3">Bookmarked movies</p>
+
+      <div>
+        <div class="border p-2">
+          <p class="mb-0">Avangers:Infinity War</p>
+          <button type="submit" class="btn btn-danger mb-3">Remove</button>
+        </div>
+        <div class="border p-2">
+          <p class="mb-0">The Avangers</p>
+          <button type="submit" class="btn btn-danger mb-3">Remove</button>
+        </div>
+        <div class="border p-2">
+          <p class="mb-0">12 Years a Slave</p>
+          <button type="submit" class="btn btn-danger mb-3">Remove</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1 -->
+
+    <div class="w-75">
+      <p class="h5 mb-3">Search resulta: 39</p>
+      <label for="input" class="form-control bg-info mb-1 w-100">Use the form on the left to search for a movie</label>
+      <div class="row row-cols-2">
+        <div class="border w-50">
+          <img class="img-fluid mt-1" srcset="https://picsum.photos/id/1/260/200" alt="pic">
+          <p>Avangers:Infinity War</p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-calendar-fill" viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z" />
+            </svg>
+            2018
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+            </svg>
+            8.7
+          </p>
+          <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+          <button type="button" class="btn btn-outline-primary">More info</button>
+          <button type="button" class="btn btn-outline-primary">Bookmark</button>
+        </div>
+        <div class="border w-50">
+          <img class="img-fluid mt-1" srcset="https://picsum.photos/id/80/260/200" alt="pic">
+          <p>Avangers:Infinity War</p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-calendar-fill" viewBox="0 0 16 16">
+              <path
+                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z" />
+            </svg>
+            2018
+          </p>
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star"
+              viewBox="0 0 16 16">
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+            </svg>
+            8.7
+          </p>
+          <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+          <button type="button" class="btn btn-outline-primary">More info</button>
+          <button type="button" class="btn btn-outline-primary">Bookmark</button>
+        </div>
+        <div class=" mx-auto row pt-4">
+          <div class=" col-10">
+            <button type="submit" class="ms-2 btn text-info border">1</button>
+            <button type="submit" class="btn text-info border">2</button>
+            <button type="submit" class="btn text-info border">3</button>
+            <button type="submit" class="btn text-info border">4</button>
+          </div>
+        </div>
+      </div>
+
+
+
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
